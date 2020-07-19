@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gayathri', sans-serif;
+}
+
+
+
+.barra-navegacion {
+
+    background-color: #904c77;
+    height: 80px;
+    display: flex; 
+    justify-content: space-between;
+    
+	
+}
+
+.isis1{
+    height: 150px;
+    width: 70px;
+    margin-left: 400px;
+    margin-top: -23px;
+}
+
+.barraNavegacion-menu{
+    margin-right: 200px;
+    margin-top: 30px;
+    
+}
+
+.links{
+    text-decoration: none;
+    margin-left: 20px;
+    color: whitesmoke;
+    
+    
+}
+
+.links:hover{
+    background-color: #e49ab0;
+    padding: 6px;
+    color: lavender;
+    
+
+}
+
+
+
+
+.nombre{
+
+    color: blueviolet;
+    display: flex;
+    align-content: center;  
+    
+
+}
+
+
+
+.isis{ 
+    
+    position: absolute;
+    left: 10cm;
+    top:6cm;
+    border-radius: 50%;
+    height: 280px;
+    width: 150px;
+    
+
+
+}    
+   
+
+#fondo-presentacion{
+
+   background-color: #e49ab0 ;
+   height: 250px;
+   margin-top: 15px;
+}
+
+#apresentacao{
+
+    height: 250px;
+    margin-top: 15px;
+    background-color: #eccfc3;    
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+#nombre{
+    font-weight: bolder;
+    font-size: 30pt;
+    margin-left: 40px;
+    text-align: center;
+    margin-top:-230px;
+}
+
+#cargo{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 540px;
+}
+
+#descricao{
+    margin-left: 540px;
+    margin-top: 10px;
+
+}
+
+.iconos{
+
+    margin-left:530px;
+    padding-top: 180px;
+}
+
+.redtrabajo:hover{
+    box-shadow: 2px 2px 2px blueviolet; 
+    box-sizing: border-box;
+}
+
+#formacao{
+    margin-top: 15px;
+    background-color: #eff7f6;
+    height:200px;
+    padding-bottom: 30px;
+    
+    
+    
+}
+.titulos{
+    margin-left: 400px;
+    padding-top: 60px;
+    font-size: 20pt;
+    
+}
+
+.barra{
+    height: 80px;
+    width: 10px;
+    background-color: #904c77;
+    margin-top: 10px;
+    margin-left: 400px;
+    
+}
+.f1a{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;;
+
+}
+
+
+
+#experiencia{
+    margin-top: 15px;
+    background-color: #f2b5d4;
+    height:340px;
+    padding-bottom: 50px;
+}
+
+.texto{
+    display: flex;
+}
+
+.f1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.f1b{
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.texto2 , .texto3 , .texto4{
+    display: flex;
+    
+}
+
+#projetos{
+    margin-top: 15px;
+    background-color: #c7f9cc;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-contenedor{
+    
+    display: flex;
+    
+}
+
+.card1{
+    margin-left: 280px;
+    margin-top: 40px;
+    background-color: #eff7f6;
+    height: 430px;
+    width:350px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10%;
+    
+}
+
+.card2{
+
+    margin-left: 100px;
+    margin-top: 40px;
+    background-color: #eff7f6;
+    height: 430px;
+    width:350px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10%;
+}
+
+
+.fondo1{
+    margin-left: 27px;
+    
+}
+.fondo2{
+    margin-left: 27px;
+
+}
+.card-titulos1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.card-titulos2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.p1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.boton1{
+    margin-left: 100px;
+    margin-top:20px;
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    background-color: #eccfc3;
+    
+
+}
+.boton2{
+    margin-left: 100px;
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    background-color: #eccfc3;
+    
+
+}
+
+.boton1:hover{
+    background-color: #eef5db;
+}
+.boton2:hover{
+    background-color: #eef5db;
+}
+
+#contactos{
+    margin-top: 50px;
+    background-color: #904c77;
+    
+    flex-direction: column;
+    
+}
+
+.titulofinal{
+    margin-left: 400px;
+    padding-top: 60px;
+    font-size: 20pt;
+    
+}
+
+.contenedor-contactos{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+    height: 400px;
+    
+}
+
+.formularios{
+    margin-left:150px;
+    
+    
+}
+
+.logos{
+
+    padding-top: 30px;
+
+}
+
+.icone:hover{
+    box-shadow: 2px 2px 2px wheat; 
+    box-sizing: border-box;
+}
+
+.icone{
+    margin-left: 20px;
+
+}
+
+.icone img{
+    border-radius: 50%;
+}
+
+#nome, #email, #assunto, #mensagem{
+
+    width:400px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px black;
+    height: 25px;
+    
+
+}
+
+#mensagem{
+    height: 100px;
+}
+
+#submit{
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    margin-left: 160px;
+    background-color: #eccfc3;
+
+}
+
+#submit:hover{
+    background-color: #eef5db;
+
+}
